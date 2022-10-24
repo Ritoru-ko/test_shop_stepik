@@ -1,14 +1,14 @@
 # test_shop_stepik
 
-Задание из курса Автоматизация тестирования с помощью Selenium и Python:
-https://stepik.org/course/575/syllabus
+Задание из курса [Автоматизация тестирования с помощью Selenium и Python](https://stepik.org/course/575/syllabus)
 
-Цель задания: убедиться, что сайт (http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/) работает одинаково для разных языков.
+Цель задания: убедиться, что [сайт](http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/) работает одинаково для разных языков.
 Данный тест проверяет наличие кнопки "Добавить в корзину".
 
 Чтобы запустить тест необходимо ввести в терминале команду:
-
+```
 pytest --language=fr test_items.py
-
+```
 Здесь --language - параметр, в который необходимо указать язык, с которым будет запускаться сайт магазина.
-По умолчанию --language=en (Британский английский)
+
+По умолчанию `--language=en` (Британский английский)
