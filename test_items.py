@@ -1,3 +1,5 @@
+import time
+
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -6,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
-def test_guest_should_see_login_link(browser):
+def test_find_add_to_busket_button(browser):
     browser.get(link)
     WebDriverWait(browser, 10).until(
         EC.element_to_be_clickable((By.CLASS_NAME, "btn-add-to-basket"))
